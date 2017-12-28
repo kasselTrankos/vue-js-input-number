@@ -1,20 +1,12 @@
 // look at demo here https://jsfiddle.net/cckLd9te/438//
 var inputNumber = {
-  template: '<input :value="value" @input="oninput" type="number" type="number" :max="max" :min="min" :maxlength="maxlength" @keydown="keydown" />',
+  template: '<input :value="value" @input="oninput" type="number" type="number" :maxlength="maxlength" @keydown="keydown" />',
   props: {
     value: {
       type: Number,
       default: null
     },
     maxlength: {
-    	type: [Number, String],
-      default: null
-    },
-    min: {
-    	type: [Number, String],
-      default: null
-    },
-    max: {
     	type: [Number, String],
       default: null
     }
