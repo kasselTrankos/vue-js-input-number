@@ -15,6 +15,7 @@ Simple example.
 {{test}}
   <input-number maxlength="3" v-model="test" min="1" max="5"></input-number>
 </div>
+```
 
 ```javascript
 new Vue({
@@ -26,5 +27,6 @@ new Vue({
     'input-number': inputNumber
   }
 });
+```
 
 
