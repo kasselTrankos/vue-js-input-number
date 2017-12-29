@@ -21,7 +21,7 @@ Simple example.
 new Vue({
 	el: '#app',
   data: {
-  	pepe: 12
+  	test: 12
   },
   components: {
     'input-number': inputNumber
