@@ -19,9 +19,9 @@ Simple example.
 
 ```javascript
 new Vue({
-	el: '#app',
+  el: '#app',
   data: {
-  	test: 12
+    test: 12
   },
   components: {
     'input-number': inputNumber
